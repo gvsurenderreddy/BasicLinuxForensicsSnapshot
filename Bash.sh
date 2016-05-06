@@ -12,7 +12,9 @@ echo "##############################"
 sleep 1
 echo "Name the Directory to Create:"
 read Directory
+if [ ! -d "$DIRECTORY" ]; then
 mkdir $Directory
+fi
 echo ""
 echo "##Creating Directory##"
 
