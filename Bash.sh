@@ -17,6 +17,7 @@ echo ""
 echo "##Creating Directory##"
 
 function MenuSelection() {
+clear
 trigger=0
 echo "######################################################"
 echo "Forensics SnapShot Image Creator"
